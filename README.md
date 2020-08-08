@@ -8,11 +8,11 @@ OpenMP and netpbm are dependancies. <br />
 
 ### How To Run 
 To compile parralel version: gcc -o edgeDetection -fopenmp EdgeDetection.c  <br />
-To run parallel version: ./edgeDetection inputFile outputFile (threshhold 0-255) (# of threads)<br />
+To run parallel version: ./edgeDetection inputFile outputFile (threshold 0-255) (# of threads)<br />
 Example: ./edgeDetection coins.png coinEdges.pbm 40 4 <br />
 
 To compile serial version: gcc -o serialEdgeDetection SerialEdgeDetection.c  <br />
-To run parallel version: ./serialEdgeDetection inputFile outputFile (threshhold 0-255) <br />
+To run parallel version: ./serialEdgeDetection inputFile outputFile (threshold 0-255) <br />
 Example: ./serialEdgeDetection coins.png coinEdges.pbm 40 <br />
 
 ### Sample Input/Output
